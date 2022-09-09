@@ -1,0 +1,39 @@
+*{
+    font-family: 'Antonio', sans-serif;
+}
+body{
+    background: no-repeat center fixed;
+    background-image: url("LForSLP.jpg");
+    background-size: cover;
+}
+h1{
+    color: white;
+}
+.btn {
+    background-color: darkorange;
+    font-weight: 600;
+    border-radius: 300px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-color: orange;
+    transition: 0.1s;
+}
+.btn:hover{
+    background-color: red;
+    border-color: yellow;
+    transform: scale(105%);
+}
+hr {
+    color: #F05F44;   
+    margin: 20px auto;
+    border: 3px solid #F05F44;
+    opacity: 1;
+    max-width: 70px;
+}
+.centered{
+    margin: auto;
+}
+.buffer{
+    width: 100%;
+    height: 10px;
+}
